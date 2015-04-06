@@ -1,0 +1,15 @@
+<!-- show the year -->
+<!-- <txp:if_different>
+<h2><txp:posted format="%Y" /></h2>
+</txp:if_different> -->
+<!-- show the month -->
+<!-- <txp:if_different>
+<h3><txp:posted format="%B" /></h3>
+</txp:if_different>  -->
+
+<!-- combined -->
+<txp:if_different><h3><txp:posted format="%Y" /></h3></txp:if_different>
+
+<!-- article title and link -->
+<txp:permlink><txp:title /></txp:permlink>
+<br />  

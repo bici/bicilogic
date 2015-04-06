@@ -1,0 +1,3 @@
+<txp:if_article_image>
+   <txp:image id='<txp:custom_field name="article_image2"/>' />
+</txp:if_article_image>

@@ -1,0 +1,4 @@
+<div class="page-title pad group">
+<!-- This is hard coded - it could be an article with only the title <  -->
+<h2><i class="fa fa-bicycle"></i> Galleries in Giro</h2>
+</div><!--/.page-title-->	

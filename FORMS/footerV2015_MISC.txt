@@ -1,0 +1,87 @@
+<footer id="footer">
+	<section class="container" id="footer-widgets">
+	<div class="container-inner">
+		<div class="pad group">												
+	<div class="footer-widget-1 grid one-third ">
+		<div id="recent-posts-3" class="widget widget_recent_entries">		
+<!-- RECENT -->
+<h3>Recent Rides</h3> 	 
+<!-- this applies to all Sections for output of recent posts -->
+<txp:article_custom listform="article_listing" limit="4" offset="3" pageby="4"   />	   
+		</div>	
+                    </div>
+					
+		<div class="footer-widget-2 grid one-third ">
+		<div id="recent-comments-3" class="widget widget_recent_comments">
+
+<!-- RECENT PERCORSI for now -->
+<!-- <h3>Latest Ramblings </h3>  -->
+<h3> Colours </h3>
+<ul id="recentcomments">
+<br>
+<img src="http://bicilogic.com/assets/images/placeholder.png" />
+</ul>
+</div>					
+       </div>  
+	
+<!-- CATEGORY IMAGES --->																				
+	<div class="footer-widget-3 grid one-third last">
+	<div id="alxtabs-4" class="widget widget_alx_tabs">
+
+<h3>Recent Galleries </h3>
+<!-- OUTPUT THUMBS & CATEGORUIES names --> 
+	<div class="alx-tabs-container">
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
+ <txp:output_form form="foot_images2015" /> 
+<!--   end thunms       -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+			</ul><!--/.alx-tab-->
+			</div>
+                      </div>
+		</div>
+		</div><!--/.pad-->
+	</div><!--/.container-inner-->
+		</section><!--/.container-->	
+			<!-- BACK to TOP -->	
+		<section class="container" id="footer-bottom">
+		<div class="container-inner">
+		<a id="back-to-top" href="index.php#"><i class="fa fa-angle-up"></i></a>
+				
+		<div class="pad group">
+		<div class="grid one-half">
+		<img id="footer-logo" src="/assets/images/logo-header.png" alt="">
+			<div id="copyright">
+			<p>Bicilogic 2015:  "Ride 'till You Bop" </p>
+				</div><!--/#copyright-->
+				<div id="credit">
+<p>Powered by <a href="http://textpattern.com" rel="nofollow">Textpattern</a>. 
+				Based on the Hueman Theme ported by <a href="http://bopjet.com" rel="nofollow">wgp</a>.</p>
+				</div><!--/#credit-->									</div>
+					
+		<div class="grid one-half last">	
+			<txp:output_form form="social2015" /> 				
+		</div>
+				</div><!--/.pad-->
+			</div><!--/.container-inner-->
+		</section><!--/.container-->
+	</footer><!--/#footer-->
+</div><!--/#wrapper-->
+
+<!--google-analytics -->
+<script>
+   
+</script>
+<!-- /google-analytics -->
+
+<script type='text/javascript' src='/assets/hueman/wp-content/plugins/light/js/jquery.fancybox.pack.js'></script>
+<script type='text/javascript' src='/assets/hueman/wp-content/plugins/light/js/light.js'></script>
+<script type='text/javascript' src='/assets/hueman/wp-content/themes/hueman/js/jquery.jplayer.min.js'></script>
+<script type='text/javascript' src='/assets/hueman/wp-content/themes/hueman/js/scripts.js'></script>
+<script type='text/javascript' src='/assets/hueman/wp-content/themes/hueman/js/jquery.sharrre.min.js'></script>
+<script type='text/javascript' src='/assets/hueman/wp-includes/js/comment-reply.min.js'></script>
+<!--[if lt IE 9]>
+<script src="/assets/hueman/wp-content/themes/hueman/js/ie/respond.js"></script>
+<![endif]-->
+</body>
+</html>

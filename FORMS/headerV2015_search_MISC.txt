@@ -1,0 +1,42 @@
+<body class="page page-id-962 page-child parent-pageid-28 page-template-default col-3cr full-width topbar-enabled mobile-sidebar-hide-s2 safari">  
+<div id="wrapper">
+	<header id="header">
+	<!--TOP NAV with SEARCH FUNCTION  -->
+	<nav class="nav-container group" id="nav-topbar">
+<ul id="color-bars" class="group">
+			<li id="color-1"></li>
+			<li id="color-2"></li>
+			<li id="color-3"></li>
+			<li id="color-4"></li>
+			<li id="color-5"></li>
+			<li id="color-6"></li>
+</ul> 
+
+<!-- two line of toggle and mobile text gone -->
+
+ 
+<div class="nav-wrap container">
+ 	 <ul id="menu-topbar-menu" class="nav container-inner group">
+	<br /> <p>			
+	 <!--  <li id="menu-item" class="menu-item">
+	</li>  -->  &nbsp; <p>
+	</ul>  
+</div> 
+	
+	<div class="container">
+		<div class="container-inner">		
+		<div class="toggle-search"><i class="fa fa-search"></i></div>
+		<div class="search-expand">
+		<div class="search-expand-inner">
+
+<txp:search_input />
+	<div>
+
+
+	</div>
+</form>			</div>
+				</div>
+			</div><!--/.container-inner-->
+		</div><!--/.container-->
+		</nav><!--/#nav-topbar-->
+<!--  end topbar for search --> 		

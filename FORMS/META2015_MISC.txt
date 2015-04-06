@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html class="no-js" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	
+<!-- GENERAL scripts--> 
+<!-- SEO plugin -->
+<txp:arc_meta_title section_title='%n / %s' />
+<!-- title><txp:page_title /></title -->
+
+
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+
+<link rel='stylesheet' id='fancybox-style-css'  href='/assets/hueman/wp-content/plugins/light/css/jquery.fancybox.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='responsive-lightbox-nivo-front-css' href='http://bicilogic.com/assets/hueman/wp-content/plugins/responsive-lightbox/assets/nivo/nivo-lightbox.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='responsive-lightbox-nivo-front-template-css'  href='http://bicilogic.com/assets/hueman/wp-content/plugins/responsive-lightbox/assets/nivo/themes/default/default.css' type='text/css' media='all' />  
+ 
+<!-- TUESDAY 24th  THIS WORKS WITH MINE-->
+<!-- this is need for the searcb ra to be black otherwise it could be left off -->
+  <link rel='stylesheet' id='style-css'  href='http://bicilogic.com/assets/hueman/wp-content/themes/hueman/style.css' type='text/css' media='all' />  
+
+<!-- Make this CUSTOM one WORK  -->
+  <link rel='stylesheet' id='custom-css'  href='http://bicilogic.com/assets/hueman/wp-content/themes/hueman/custom.css' type='text/css' media='all' />   
+
+<!-- BICI_CUSTOM -->
+<!-- <link rel='stylesheet' id='style-css'  href='/assets/css/bici_custom.css' type='text/css' media='all' />   -->
+
+<link rel='stylesheet' id='responsive-css'  href='http://bicilogic.com/assets/hueman/wp-content/themes/hueman/responsive.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='font-awesome-css'  href='http://bicilogic.com/assets/hueman/wp-content/themes/hueman/fonts/font-awesome.min.css' type='text/css' media='all' /> 
+<!--- WORK to HERE UP -->
+
+
+<script type='text/javascript' src='http://bicilogic.com/assets/hueman/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://bicilogic.com/assets/hueman/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+ <script type='text/javascript' src='http://bicilogic.com/assets/hueman/wp-content/plugins/responsive-lightbox/assets/nivo/nivo-lightbox.min.js'></script> 
+
+<!--- WORKS to HERE UP -->
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"nivo","selector":"lightbox","custom_events":"","activeGalleries":"1","effect":"fade","clickOverlayToClose":"1","keyboardNav":"1","errorMessage":"The requested content cannot be loaded. Please try again later."};
+/* ]]> */
+</script>
+
+<script type='text/javascript' src='http://bicilogic.com/assets/hueman/wp-content/plugins/responsive-lightbox/js/front.js'></script>
+<script type='text/javascript' src='http://bicilogic.com/assets/hueman/wp-content/themes/hueman/js/jquery.flexslider.min.js'></script> 
+<!--- WORKS to HERE UP -->
+
+<link rel='canonical' href='index.php' />
+<link rel='shortlink' href='index.php' />
+
+<link rel="shortcut icon" href="/images/faviball.ico" />
+<link rel="icon" href="/images/faviball.ico" type="image/ico">
+
+<!--[if lt IE 9]>
+<script src="http://bicilogic.com/assets/hueman/wp-content/themes/hueman/js/ie/html5.js"></script>
+<script src="http://bicilogic.com/assets/hueman/wp-content/themes/hueman/js/ie/selectivizr.js"></script>
+<![endif]-->
+	
+<!-- sorcery -->
+<script type="text/javascript" src="/js/global.js"></script>
+ 
+</head>
+<!-- end METAV2015 form -->

@@ -1,0 +1,13 @@
+<txp:if_individual_article>
+<p>
+<txp:link_to_prev><txp:prev_title /> << </txp:link_to_prev>
+<txp:link_to_next><txp:next_title />  >> </txp:link_to_next>
+</p>
+</txp:if_individual_article>
+<txp:if_article_list>
+<p>
+<txp:older> <<  Previous </txp:older> &nbsp; | &nbsp;
+<txp:newer> Next  >> </txp:newer>
+</p>
+</txp:if_article_list>
+	 

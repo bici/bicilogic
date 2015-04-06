@@ -1,0 +1,86 @@
+<!-- SIDEBAR1 FORM -->
+<div id="alxposts-4" class="widget widget_alx_posts">
+  
+   <ul>	
+     <li>  	
+<h3>R O A D R A S H</h3>
+  <div class="post-item-inner group">	
+<p class="post-item-title"  
+<txp:linklist form="plainlinks" category="Roadrash" limit="16" sort="rand()" /> 
+<!-- OLD < txp: linklist form="plainlinks" category="Roadrash" limit="16" wraptag="br" sort="rand()" / --> 
+     </li>
+<p />
+<br /> 
+
+ <li>
+<h3>O D D R I D E S</h3>
+<p class="post-item-title" 
+  <txp:linklist form="plainlinks" category="Oddrides" limit="12" sort="rand()" />
+ </li>  
+ <p /> 
+<br /> 
+
+<li>
+<h3>I N I Z I O </h3>
+<p class="post-item-title">
+<a href="http://www.ponzanoveneto.com/">Ponzan </a>
+</li>
+<p />
+<br /> 
+
+
+<li>
+<h3>F E E D S</h3>
+<p class="post-item-title">
+<txp:feed_link label="RSS" flavor="rss"  /><br>
+<txp:feed_link label="Atom" flavor="atom"/> 
+</li>
+<p />
+<br /> 
+
+ <li>
+<p class="post-item-title">
+<h3>T R A C K S </h3>
+<a href="http://ws.audioscrobbler.com/1.0/user/bicilogic/recenttracks.rss" title="RSS Feed for bicilogic's Recent Tracks"><img src="http://static.last.fm/matt/last_rss.gif" height="12" width="12" alt="RSS Feed for bicilogic's Recent Tracks" border="0" /></a>
+</li>
+<p />
+<br /> 
+
+ <li>
+<h3> R O A D . C O N D I T I O N S</h3>
+<p class="post-item-title">
+<iframe marginheight="0" marginwidth="0" name="iframe1" id="iframe1" width="250" height="90" src="http://btn.weather.ca/weatherbuttons/template5.php?placeCode=CABC0308&cityNameNeeded=1&category0=Cities&celsiusF=C" align="top" frameborder="0" scrolling="no"></iframe>
+</li>
+
+<li>
+ 
+<br></p><p>
+<h3>T W I T T E R</h3>
+
+<div id="twitter_div">  
+
+<a class="twitter-timeline" width="250" height="300" href="https://twitter.com/bici" data-widget-id="358723390632247296">Tweets by @bici</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+	</p>
+</li>
+ 
+<br /> 
+<li>
+<h3>A R R I V O</h3>
+<p class="post-item-title">
+Where is Bici? 
+<a href="JavaScript: alert('. . . sempre in giro');">
+<code><pre>
+    ,__o
+  _-\ _&lt;;
+ (*)/'(*) </code></pre></a>   
+<br /> 
+ </li>
+
+<!-- neeww - dec 2011 -->
+<!--<txp:image id="50" />-->
+  </ul>	
+  </div> 
+<!-- END SIDEBAR1 FORM -->

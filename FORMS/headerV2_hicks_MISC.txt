@@ -1,0 +1,51 @@
+<!-- jon hicks creation  -->
+<div id="contactinfo">
+<!-- contact info presented as a hCard Microformat -->
+
+<div class="vcard">
+<!-- <img src="./feeds/biciavatar.jpg" alt="foto di Vanni" class="photo hide" />
+ <a class="url fn hide" href="http://www.ponzanoveneto.com">Vanni</a> -->
+<img style="float:left; margin-right:4px" src="http://bicilogic.com/feeds/biciavatar.jpg" alt="photo" class="photo hide"/>
+ <a class="url fn hide" href="/">Vanni di Ponzano</a>  
+	<!--  <div class="org">bicilogic.com
+         </div> -->
+	 
+         <div class="address">
+<!-- <span class="street-address">2548 Grant Street</span> / --> 
+<span class="locality">Vancouver</span><br />
+<span class="region">B.C.</span> / <span class="country-name">Canada</span> 
+<!-- / <span class="postal-code">V5K 3G7</span> -->
+         </div>
+       
+<p><strong>T:</strong> <span class="tel">+1 604 928 </span><br />
+<strong>E:</strong> <span class="tel"> Send email:</span> 
+<script type="text/javascript">
+//<![CDATA[
+
+function hiveware_enkoder(){var i,j,x,y,x=
+"x=\"0x=\\\"703783365d226423078368352733d392535c3622267654362b3353678463362" +
+"363e3626673632367563635633326353773336327456432736323766428331346963636235" +
+"3c399363233667295633423739365343b663337d2323676539222373b6333a3d7656573736" +
+"616326c26438786362e639336813761736324146274236383063529235393b232783383d78" +
+"0322e7363375233627333374663722663831636293316b795323d23737270343b636366f63" +
+"87223138697363d332303b336693373c785342e6363c653366e6633774332683646b696352" +
+"b3366d32331297323b793322b3653d786322e76433752366273233741397223638693392c3" +
+"6231296333b7633d660376f7333228462693365d31c223b666393cb33782796e6c13d65636" +
+"2e6773274627383b63b692396b3d6363226f397b372792362b3d839782693e7343d7563032" +
+"730367473b6228469692363c31c35293783b7d22e793656d79c362e765337536e627366374" +
+"76672274386a668293643b\\\";b33y='696';f62bor(373i=0d33;i<323x.l729eng357th" +
+";b36i+=7932){22by+=363uned61sca753pe(66e'%'356+x.536sub733str363(i,3762))1" +
+"34;}y\";j=eval(x.charAt(0));x=x.substr(1);y='';for(i=0;i<x.length;i+=6){y+" +
+"=x.substr(i,3);}for(i=3;i<x.length;i+=6){y+=x.substr(i,3);}y=y.substr(j);";
+while(x=eval(x));}hiveware_enkoder();
+//]]>
+</script>
+<noscript>
+<p>email</p>
+</noscript>
+<!-- endcode -->
+<!-- </div> --> <p><strong>Linkages:</strong>
+<a href="http://ponzanoveneto.com/">Ponzano</a>  &  <a href="http://digitaluce.com/"> Digitaluce </a>.
+</p>
+</div>  <!-- /vcard -->
+</div> <!-- /contactinfo -->

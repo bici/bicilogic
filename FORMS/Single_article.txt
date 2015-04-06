@@ -1,0 +1,19 @@
+<h1 class="post-title">
+<txp:permlink><txp:title /></txp:permlink></h1>
+<p class="post-byline"> by <txp:author link="n" /> &middot; <txp:posted /></p> 
+
+<div class="post-format">
+		<div class="image-container">
+<txp:output_form form="article_image" />
+	</div>
+	</div>
+<div class="clear"></div>	
+		<div class="entry-inner">
+	<txp:body />
+
+<div class="image-container">
+<txp:output_form form="article_image2" />
+	</div>
+
+  <br />
+	<div class="post-footer">&nbsp;</div> <!-- - for leaf -->

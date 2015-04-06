@@ -1,0 +1,3 @@
+<txp:if_article_image>
+	<txp:article_image wraptag="p" class="article-image" width="720"/>
+</txp:if_article_image>

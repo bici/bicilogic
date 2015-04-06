@@ -1,0 +1,40 @@
+<!-- weeding out metav2_GALLERY -->
+<script type="text/javascript" src="/assets/sooGallery/sooGallery.js"></script>
+<style type='text/css'>
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 20%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>
+
+
+<style type='text/css'>
+			#gallery-2 {
+				margin: auto;
+			}
+			#gallery-2 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 25%;
+			}
+			#gallery-2 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-2 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>

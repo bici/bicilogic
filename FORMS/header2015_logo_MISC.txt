@@ -1,0 +1,4 @@
+<div class="group pad"> <!-- logo-header -->
+	<p class="site-title"><a href="http://bicilogic.com" rel="home"><img src="http://bicilogic.com/assets/images/logo_topheader2.png" alt="Bicilogic"></a></p>
+<!-- <p class="site-description">Ride 'til you Bop.</p> -->									
+</div>

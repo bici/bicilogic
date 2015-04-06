@@ -1,0 +1,4 @@
+<div class="page-title pad group">
+<!-- This is hard coded  >it could bean article with only the title <  -->
+<h2>Sempre in Giro</h2>
+</div><!--/.page-title-->	

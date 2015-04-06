@@ -1,0 +1,107 @@
+<txp:output_form form="META2015" />
+
+<!-- TOP bar for SEARCH -->
+<txp:output_form form="headerV2015_search" />
+<!-- //TOP bar for SEARCH -->	
+	<div class="container group">
+		<div class="container-inner">
+<!-- TOP bar LOGO  -->				
+<txp:output_form form="header2015_logo" />
+<!-- //TOP bar LOGO -->	
+
+<!-- NAVA new  -->	
+<txp:output_form form="menu2015" /> 
+<!--  // NAVA new -->								
+			</div><!--/.container-inner-->
+		</div><!--/.container-->
+	</header><!--/#header-->
+	
+<!-- LEAVE HICKS here in order to work --> 
+<txp:output_form form="headerV2_hicks" />  
+<!-- //HICKS   --> 
+
+	<div class="container" id="page">
+		<div class="container-inner">			
+			<div class="main">
+				<div class="main-inner group">
+<section class="content">
+	
+<txp:output_form form="page_titleV2" /><!-- ONE time PAGE HEADER TITLE -->
+
+<!-- start of ERROR OUTPUT --> 
+<div class="pad group">
+	<article class="post">
+	<div class="post-inner group">
+
+<!-- ** GET ARTICLES WORKING!!**  --> 
+ 
+<h1 class="post-title">
+<txp:site_name />: <txp:error_status /></h1>
+	<p><txp:error_message /></p>
+        <p><txp:link_to_home><txp:site_url /></txp:link_to_home></p>
+        <p><a href="http://textpattern.com/"><txp:img src="textpattern/txp_img/txp_slug105x45.gif" /></a></p>
+ 
+ 
+
+<div class="clear"></div>
+		</div><!--/.entry -->
+			</article><!--/.post -->
+	</div><!--/.pad -->
+</section><!--/.content --> <!-- /RIGHT HAND SIDE CONTENT -->
+<!-- END of ARTICLE OUTPUT --> 
+
+
+<!-- ON SIDEBAR_1 "PELETON" -->
+<!-- SIDEBAR1_v2 SOCIAL BITS -->
+<div class="sidebar s1">
+<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+	<div class="sidebar-content">
+		<div class="sidebar-top group">
+		<p>Peleton:</p>
+		<ul class="social-links">
+		<li><a rel="nofollow" class="social-tooltip" title="Twitter" href="http://twitter.com/bici" ><i class="fa fa-twitter" ></i></a>
+		<li><a rel="nofollow" class="social-tooltip" title="Google+" href="index.php#" ><i class="fa fa-google-plus" ></i></a></li>
+		<li><a rel="nofollow" class="social-tooltip" title="RSS Feed" href="http://bicilogic.com/rss/" ><i class="fa fa-rss"> </i></a></li></ul>	
+		</div>
+
+<!-- SIDEBAR1_v2 FORM -->								
+<txp:output_form form="sidebar1_V2" />
+			
+		</div><!--/.sidebar-content-->
+	</div><!--/.sidebar-->
+
+<!-- END SIDEBAR1 FORM -->
+
+
+<!-- ON THE SIDEBAR2 INNER LEFT "VELOISTS"  -->	
+<div class="sidebar s2">
+	<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+	
+	<div class="sidebar-content">
+		<div class="sidebar-top group">
+			<p>Veloists</p>
+		</div>
+				
+<!-- THIS SECTION IS FOR THE RIDER IMAGES VELOISTS -->		
+<!-- this div id for spacing -->
+<div id="alxtabs-6" class="widget widget_alx_tabs">
+         <!--/.alx-tab -->
+			
+<!-- SIDEBAR2 FORM -->
+<txp:output_form form="sidebar2_V2" />
+<!-- END SIDEBAR2 FORM -->
+			
+			</div>
+                   </div>
+	</div><!--/.sidebar-content -->
+  </div><!--/.sidebar-->
+
+<!-- shut down the mid sections -->	
+                           </div><!--/.main-inner-->
+			</div><!--/.main-->			
+		</div><!--/.container-inner-->
+	</div><!--/.container-->
+
+<!-- ++++++ FOOTERS PLUS++++++ -->
+<!--  txp : output _ form form= " footerV2 " / --> 
+<txp:output_form form="footerV2015" /> 

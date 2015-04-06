@@ -1,0 +1,5 @@
+<h3><txp:permlink><txp:title /></txp:permlink></h3>
+<p><txp:search_result_excerpt /><br/>
+<small><txp:permlink><txp:permlink /></txp:permlink> &middot;
+<txp:posted /></small></p>
+<br/>

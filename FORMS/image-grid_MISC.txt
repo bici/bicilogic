@@ -1,0 +1,5 @@
+<dl class='gallery-item'>
+<dt class='gallery-icon landscape'>
+<a href="<txp:image_url />" rel="lightbox[gallery-1]"><img src="<txp:image_url thumbnail="1" />" /></a>
+</dt></dl> 
+<!-- see also 4grid -->

@@ -1,0 +1,12 @@
+<!-- SIDEBAR2 FORM -->
+<div id="sidebar2">
+<center><a href="http://www.bikecult.com/bikecultbook/sports_roadOlympics.html" title="BikeCult"><img src="/images/midbar/bicitreviso.gif" alt="Bike Cult" height="87" width="90" border="0" /></a></center>
+<p><br>
+<txp:output_form form="midbar_images" />
+</p><br>
+<center>
+<a href="http://www.last.fm/user/bicilogic/" title="myTunes"><txp:image id="50" /></a>
+<center>
+
+</div>
+<!-- END SIDEBAR2 FORM -->

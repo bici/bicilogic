@@ -1,0 +1,29 @@
+<!-- nava 2015 drop NEW -->
+<nav class="nav-container group" id="nav-header">
+<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+<div class="nav-text"><!-- put your mobile menu text here --></div>
+<div class="nav-wrap container">
+<ul id="menu-header-menu" class="nav container-inner group">
+<!-- Main menu items -->
+
+<li id="menu-item" class="menu-item"><a href="http://bicilogic.com" id="navHome" title="Fresh Rides" accesskey="h">Home |</a></li>
+
+<li<txp:if_section name="about"> class="current-menu-item"</txp:if_section>> 
+    <txp:section link="1" title="1" name="About" />  
+  </li>
+  
+<li<txp:if_section name="archive"> class="current-menu-item"</txp:if_section>>
+    <txp:section link="1" title="1" name="Archive" />  
+  </li>
+  
+
+<!-- Main menu item -->
+<li><a <txp:if_section name="galleries">class="current-menu-item" </txp:if_section>href="<txp:site_url />galleries">Galleries</a>
+<!-- Sub menu items using article_custom to display articles from the galleries section -->
+<ul class="sub-menu">
+<txp:article_custom section="galleries" form="menu_list" sort="Posted DESC" /></ul></li>
+
+<li id="menu-item" class="menu-item"><a href="http://bicilogic.com/contact" id="cbut" title="Contact Bici"> Make Contact</a></li> 
+</ul><!-- Close id ul menu-header-menu  -->
+<!-- Clear the floats -->
+<!-- br class="clearit" / --> 

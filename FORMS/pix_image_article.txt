@@ -1,0 +1,1 @@
+<txp:permlink><img src="<txp:image_url thumbnail="1" />" /></txp:permlink>

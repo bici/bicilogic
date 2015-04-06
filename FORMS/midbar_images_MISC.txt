@@ -1,0 +1,1 @@
+<txp:images category="Midbar" thumbnail="1" form="image-grid" wraptag="section" class="thumbgrid" break="figure"  title="" /></txp:images>

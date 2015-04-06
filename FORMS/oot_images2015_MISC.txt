@@ -1,0 +1,21 @@
+<!-- FORM for thumbs and catnames foot_images2015 -->
+<txp:article_custom section="galleries">
+<txp:if_custom_field name="pixie">
+<ul id="tab-popular" class="alx-tab group thumbs-enabled">
+<li>
+<div class="tab-item-thumbnail"> 
+<txp:images id='<txp:custom_field name="pixie" />'> 
+<txp:permlink><img src="<txp:image_url thumbnail="1" />" /></txp:permlink>
+</div> 
+
+<!-- outout custom cat names -->
+<div class="tab-item-inner group">
+<p class="tab-item-category"><a href="http://bicilogic.com/galleries/<txp:custom_field name="pixiecat" />"><txp:custom_field name="pixiecat" /></a> </p>
+</div>
+<!-- //outout custom cat names -->
+
+</li>
+</txp:images>  
+</ul>
+</txp:if_custom_field>  
+</txp:article_custom>

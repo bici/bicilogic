@@ -1,0 +1,9 @@
+<dl class='gallery-item'>
+<dt class='gallery-icon landscape'>
+<a href="<txp:image_url />" rel="lightbox[gallery-2]"><img src="<txp:image_url thumbnail="1" />" /></a>
+</dt>
+<dd class='wp-caption-text gallery-caption' id='gallery'>
+<txp:image_info type='alt' />
+</dd>
+</dl> 
+<!-- NOTE: this controls format with CAPTIONS & FOUR images rel="lightbox[gallery-2]" -->
